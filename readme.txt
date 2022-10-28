@@ -5,7 +5,7 @@ Uses openAI Gym to train a flappy bird bot
 more details to come.
 
 visual studio 2019 - need at least Microsoft Visual C++ for the flappy-bird-gym environment (2019 works, unsure about 2022 but here's a link: https://visualstudio.microsoft.com/visual-cpp-build-tools/ )
-Need python 3.5+ (but not 3.11 - caused an error - 3.9.11 confirmed works on two machines)
+Need python 3.6-3.9 (3.9.11 confirmed works on two machines)
 pip install --upgrade setuptools
 pip install gym
 pip install flappy-bird-gym
@@ -23,3 +23,5 @@ _BASE_DIR = Path(os.path.dirname(os.path.realpath(__file__))).parent
 ASSETS_DIR = str(_BASE_DIR / "flappy_bird_gym/assets")
 
 (above solution provided in issues section of https://github.com/Talendar/flappy-bird-gym/issues/3 by prabathbr)
+
+Type flappy_bird_gym into the command prompt to play
