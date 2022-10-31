@@ -28,3 +28,4 @@ Type flappy_bird_gym into the command prompt to play
 
 NN assignment changed numpy to a newer version - pip warns me of incompatability but everything still seems to work
 fine
+this is the error: flappy-bird-gym 0.3.0 requires numpy~=1.19.5, but you have numpy 1.23.4 which is incompatible.
