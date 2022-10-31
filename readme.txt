@@ -25,3 +25,6 @@ ASSETS_DIR = str(_BASE_DIR / "flappy_bird_gym/assets")
 (above solution provided in issues section of https://github.com/Talendar/flappy-bird-gym/issues/3 by prabathbr)
 
 Type flappy_bird_gym into the command prompt to play
+
+NN assignment changed numpy to a newer version - pip warns me of incompatability but everything still seems to work
+fine
