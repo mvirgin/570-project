@@ -4,6 +4,7 @@ import flappy_bird_gym
 
 env = flappy_bird_gym.make("FlappyBird-v0")
 obs = env.reset()
+print(env.observation_space)
 
 while True:
     # Next action:
